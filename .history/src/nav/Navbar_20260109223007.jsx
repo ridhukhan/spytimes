@@ -1,5 +1,4 @@
 import React from 'react'
-import "./Navbar.css"
 import { ImCross } from "react-icons/im";
 import { TiThMenu } from "react-icons/ti";
 import logo from "../assets/download.jpeg"

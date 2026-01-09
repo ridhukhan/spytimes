@@ -1,5 +1,4 @@
 import React from 'react'
-import "./Navbar.css"
 import { ImCross } from "react-icons/im";
 import { TiThMenu } from "react-icons/ti";
 import logo from "../assets/download.jpeg"
@@ -15,26 +14,6 @@ const Navbar = () => {
    
    {openmenu? <div style={{display:"grid",position:"absolute",width:"90%",background:"black", height:"600px", zIndex:"999", marginTop:"10%", borderRadius:"19px", right:"0"}}>
 <ImCross onClick={()=>setOpenmenu(null)} style={{ color:"red", left:"0", justifyContent:"flex-start", width:"50px", height:"30px"}}/>
-  
-  <ul>
-
-
-    <li>Home</li>
-    <li>USA</li>
-    <li>UK</li>
-    <li>ASIA</li>
-    <li>HOLLYWOOD</li>
-  </ul>
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
    </div>: null}
     </div>
   )

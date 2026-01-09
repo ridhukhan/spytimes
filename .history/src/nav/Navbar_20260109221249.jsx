@@ -1,0 +1,22 @@
+import React from 'react'
+import { TiThMenu } from "react-icons/ti";
+import logo from "../assets/download.jpeg"
+import { useState } from 'react';
+const Navbar = () => {
+    const [openmenu,setOpenmenu]=useState(false)
+  return (
+    <div style={{position:"fixed",backgroundColor:"red",display:"flex",
+    width:"100%", height:"80px", top:"0", zIndex:"1000", boxShadow:"2px 5px 14px black"}}>
+<img src={logo} alt="logo" style={{width:"80px", height:"80px", borderRadius:"100%"}}/>
+<h1 style={{marginTop:"2%", marginLeft:"7%",}}>SPAY TIMES</h1>
+<TiThMenu  onClick={()=>setOpenmenu(!openmenu)}  style={{width:"50px",height:"30px", marginTop:"5%", position:"fixed"}}/>
+   
+   {openmenu? <div style={{width:"80%", background:"black", height:"80%"}}>
+
+   </div>: null}
+    </div>
+  )
+}
+
+
+export default Navbar
