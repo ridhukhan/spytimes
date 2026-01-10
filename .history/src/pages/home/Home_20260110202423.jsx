@@ -1,7 +1,6 @@
 import React from 'react'
 import home1 from "../../assets/home1.jpeg"
 import Trending from '../../components/trending/Trending'
-import AdBanner from '../../ads/AdBanner'
 const Home = () => {
   return (
     <div style={{marginTop:"20%"}}>
@@ -10,7 +9,6 @@ const Home = () => {
         <h1 style={{backgroundColor:"#999"}}>Vance has sharply criticizes Denmark <br /> and Europe over their role and management regarding <br /> Greenland.</h1>
 
         <img src={home1} alt="home1" />
-        <AdBanner/>
        <h4>
         US Vice-President JD Vance has described Greenland as “critical” to the defence of both the United States and the wider world, citing concerns over potential missile threats from Russia or China. He argued that Europe and Denmark have failed to adequately secure the strategically vital region.
 

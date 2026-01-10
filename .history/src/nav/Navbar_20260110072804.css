@@ -4,12 +4,4 @@ text-align: center;
     border-bottom: 2px solid white;
     font-size: 40px;
     list-style: none;
-    cursor: pointer;
-    
-}
-ul li:hover{
-    background-color: brown;
-}
-a{
-    text-decoration: none;
 }

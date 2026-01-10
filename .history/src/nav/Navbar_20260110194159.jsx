@@ -20,7 +20,7 @@ const Navbar = () => {
   <ul>
 
 
-    <Link to={"/"}><li>Home</li></Link>
+    <li>Home</li>
     <li>USA</li>
     <li>UK</li>
     <li>ASIA</li>

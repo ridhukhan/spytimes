@@ -20,13 +20,13 @@ const Navbar = () => {
   <ul>
 
 
-    <Link to={"/"}><li>Home</li></Link>
+    <li>Home</li>
     <li>USA</li>
     <li>UK</li>
     <li>ASIA</li>
     <li>HOLLYWOOD</li>
    <Link to={"/privecypolicy"}><li style={{color:"blue"}}>Privecy Policy</li></Link>
-<Link to={"/Terms"}><li style={{color:"blue"}}>Terms &  condition</li></Link>
+<Navigate to={"/Terms"}><li style={{color:"blue"}}>Terms &  condition</li></Navigate>
 
   </ul>
   

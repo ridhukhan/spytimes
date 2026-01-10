@@ -4,7 +4,7 @@ import { ImCross } from "react-icons/im";
 import { TiThMenu } from "react-icons/ti";
 import logo from "../assets/download.jpeg"
 import { useState } from 'react';
-import { Link, Navigate } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 const Navbar = () => {
     const [openmenu,setOpenmenu]=useState(false)
   return (
@@ -20,13 +20,13 @@ const Navbar = () => {
   <ul>
 
 
-    <Link to={"/"}><li>Home</li></Link>
+    <li>Home</li>
     <li>USA</li>
     <li>UK</li>
     <li>ASIA</li>
     <li>HOLLYWOOD</li>
    <Link to={"/privecypolicy"}><li style={{color:"blue"}}>Privecy Policy</li></Link>
-<Link to={"/Terms"}><li style={{color:"blue"}}>Terms &  condition</li></Link>
+    <li style={{color:"blue"}}>Terms &  condition</li>
 
   </ul>
   

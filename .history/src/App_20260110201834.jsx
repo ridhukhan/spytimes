@@ -3,7 +3,6 @@ import Navbar from "./nav/Navbar"
 import Home from "./pages/home/Home"
 import PrivecyPolicy from "./components/policy/PrivecyPolicy"
 import Terms from "./components/policy/Terms"
-import TrendingDetails from "./components/trending/TrendingDetails"
 
 
 
@@ -16,7 +15,6 @@ function App() {
     <Route path="/" element={<Home/>}/>
     <Route  path="/privecypolicy" element={<PrivecyPolicy/>}/>
     <Route  path="/Terms" element={<Terms/>}/> 
-    <Route  path="/Trendingdetails" element={<TrendingDetails/>}/> 
 
    </Routes>
     </div>
