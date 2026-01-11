@@ -24,7 +24,7 @@ const Navbar = () => {
     <li>USA</li>
     <li>UK</li>
     <li>ASIA</li>
-    <Link to={"/health"}><li onClick={()=>setOpenmenu(null)}>Health</li></Link>
+    <Link to={"/health"}><li>Health</li></Link>
    <Link to={"/privecypolicy"}><li style={{color:"blue"}}>Privecy Policy</li></Link>
 <Link to={"/Terms"}><li style={{color:"blue"}}>Terms &  condition</li></Link>
 
