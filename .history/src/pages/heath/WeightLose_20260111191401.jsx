@@ -1,7 +1,5 @@
 import React from 'react'
 import weightlose from "../../assets/weightlose.jpeg"
-import diabetes from "../../assets/diabetes01.png"
-
 const WeightLose = () => {
   return (
     <div  style={{marginTop:"20%", textAlign:"center"}}>
@@ -47,11 +45,6 @@ Sugary foods and drinks are one of the main causes of weight gain. Avoid soft dr
 <a href="https://www.effectivegatecpm.com/b4s3z1g3h3?key=624d68387e04f583c66e77df9c6d18a7" target="_blank" rel="nofollow">
 Explore related resources
 </a>
-
-<div style={{display:"flex", boxShadow:"4px 7px 15px black", border:"1px solid black"}}>
-<img src={diabetes} alt="Healthy lifestyle tips for supporting blood suger"  style={{width:"300px", height:"150px"}}/>
-<Link to={"/blood-sugar-natural-tips"}><h2 >Managing Blood Sugar: Lifestyle Tips & Resources</h2></Link>
-</div>
 6. Choose Whole Grains
 
 Whole grains such as brown rice, oatmeal, and whole wheat bread help with weight loss. They are rich in fiber, which slows digestion and keeps you feeling full for longer.
