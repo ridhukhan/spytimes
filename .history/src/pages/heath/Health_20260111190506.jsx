@@ -14,7 +14,7 @@ const Health = () => {
 <br />
 <div style={{display:"flex", boxShadow:"4px 7px 15px black", border:"1px solid black"}}>
 <img src={alergy} alt="Natural ways to support allergy relief"  style={{width:"300px", height:"150px"}}/>
-<Link to={"/allergy"}><h2 >Managing Skin Allergys natural way</h2></Link>
+<Link to={"/allergy"}><h2 >Managing Blood Sugar: Lifestyle Tips & Resources</h2></Link>
 </div>
 <div style={{display:"flex", boxShadow:"4px 7px 15px black", border:"1px solid black"}}>
 <img src={weightlose} alt="Natural ways to support Weight Lose"  style={{width:"300px", height:"150px"}}/>
