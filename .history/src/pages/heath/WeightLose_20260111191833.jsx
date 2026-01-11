@@ -1,7 +1,7 @@
 import React from 'react'
 import weightlose from "../../assets/weightlose.jpeg"
 import diabetes from "../../assets/diabetes01.png"
-import { Link } from 'react-router-dom'
+
 const WeightLose = () => {
   return (
     <div  style={{marginTop:"20%", textAlign:"center"}}>
