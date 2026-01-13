@@ -1,5 +1,7 @@
 import React from 'react';
 import diabetese from "../../assets/diabetes01.png";
+import { MidAd } from '../../components/ads/MidAd';
+import { TopAd } from '../../components/ads/TopAd';
 
 const Dieabeties = () => {
   return (
@@ -85,7 +87,8 @@ const Dieabeties = () => {
         According to nutritionists, jujube has a strong effect on people with diabetes. It is rich in fiber, which helps control blood sugar levels. Research published in the <em>International Journal of Research in Pharmacy and Biosciences</em> shows that jujube contains hypoglycemic compounds that help prevent diabetes. Jujube leaves are also beneficial in improving insulin resistance.
       </p>
 
-    
+     <MidAd/>
+
       <h2>Gymnema Sylvestre (Gaynura Procumbens)</h2>
       <p>
         This medicinal plant is used worldwide to treat diabetes. In China, it is also used as an antiviral. Known botanically as <em>Gymnema Sylvestre</em>, it is called "Sabunga" in English and "Jian Feng Wei" in China. People with diabetes, high blood pressure, and high cholesterol can take 2 leaves in the morning on an empty stomach to help manage these conditions. For those using insulin or with gastric issues, take 2 leaves in the morning and 2 leaves at night.
