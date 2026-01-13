@@ -4,6 +4,7 @@ import alergy from "../../assets/Allergy.jpeg"
 import weightlose from "../../assets/weightlose.jpeg"
 
 import { Link } from 'react-router-dom'
+import { BottomAd } from '../../components/ads/BottomAd'
 import { TopAd } from '../../components/ads/TopAd'
 import { MidAd } from '../../components/ads/MidAd'
 const Health = () => {

@@ -4,6 +4,7 @@ import diabetes from "../../assets/diabetes01.png";
 import { Link } from 'react-router-dom';
 import { TopAd } from '../../components/ads/TopAd';
 import { MidAd } from '../../components/ads/MidAd';
+import { BottomAd } from '../../components/ads/BottomAd';
 
 
 const WeightLose = () => {

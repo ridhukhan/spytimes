@@ -1,5 +1,6 @@
 import React from 'react';
 import diabetese from "../../assets/diabetes01.png";
+import { BottomAd } from '../../components/ads/BottomAd';
 import { MidAd } from '../../components/ads/MidAd';
 import { TopAd } from '../../components/ads/TopAd';
 

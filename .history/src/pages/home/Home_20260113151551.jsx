@@ -1,6 +1,7 @@
 import React from 'react'
 import home1 from "../../assets/home1.jpeg"
 import Trending from '../../components/trending/Trending'
+import {BottomAd} from '../../components/ads/BottomAd'
 import { TopAd } from '../../components/ads/TopAd'
 import { MidAd } from '../../components/ads/MidAd'
 const Home = () => {
