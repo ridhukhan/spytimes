@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 
 // Top Banner Ad Component (Fixed - Direct Banner Format)
-export const TopAd = () => {
+export const TopBannerAd = () => {
 useEffect(() => {
 // Banner ad configuration
 const atOptions = {

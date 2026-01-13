@@ -1,6 +1,3 @@
-import React,{useEffect} from "react";
-
-
 export const PopunderAd = () => {
   useEffect(() => {
     const atOptions = {
