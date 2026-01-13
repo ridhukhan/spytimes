@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 
-export const PopUnderAd = () => {
+const PopUnderAd = () => {
   useEffect(() => {
     // prevent duplicate popunder load
     if (window.__exoPopLoaded) return;
@@ -52,3 +52,4 @@ export const PopUnderAd = () => {
   return null; // popunder has no UI
 };
 
+export default PopUnderAd;

@@ -4,7 +4,6 @@ import diabetes from "../../assets/diabetes01.png";
 import { Link } from 'react-router-dom';
 import FullPageAdBanner from '../../components/ads/FullPageAdBanner';
 import VastVideoAd from '../../components/ads/VastVideoPage';
-import AdBanner from '../../components/ads/AdsBanner';
 
 
 const WeightLose = () => {
@@ -136,7 +135,7 @@ const WeightLose = () => {
 
       <h2 style={{marginTop: "40px"}}>Conclusion</h2>
       <p>Weight loss is a gradual process that requires time, patience, and consistency. By following a balanced diet, exercising regularly, and maintaining a healthy lifestyle, successful weight loss is achievable. Give yourself time, set realistic goals, and be kind to yourself as you work toward better health.</p>
-<AdBanner/>
+
      
     </div>
   );

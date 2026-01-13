@@ -3,8 +3,6 @@ import weightlose from "../../assets/weightlose.jpeg";
 import diabetes from "../../assets/diabetes01.png";
 import { Link } from 'react-router-dom';
 import FullPageAdBanner from '../../components/ads/FullPageAdBanner';
-import VastVideoAd from '../../components/ads/VastVideoPage';
-import AdBanner from '../../components/ads/AdsBanner';
 
 
 const WeightLose = () => {
@@ -23,7 +21,7 @@ const WeightLose = () => {
       <a href="https://www.effectivegatecpm.com/b4s3z1g3h3?key=624d68387e04f583c66e77df9c6d18a7" target='_blank' rel='nofollow'>
         <img src={weightlose} alt="Healthy lifestyle tips for supporting Weight Lose" style={{maxWidth: "100%"}} />
       </a>
-<VastVideoAd/>
+
       <h2>1. Follow a Balanced Diet</h2>
       <p>The first step to healthy weight loss is following a balanced diet. Include adequate amounts of protein, vegetables, fruits, and whole grains in your daily meals. Protein plays a crucial role in weight loss as it reduces hunger and keeps you feeling full for a longer time. Good sources of protein include chicken, eggs, fish, lentils, and chickpeas.</p>
       <a href="https://www.effectivegatecpm.com/b4s3z1g3h3?key=624d68387e04f583c66e77df9c6d18a7" target="_blank" rel="nofollow">
@@ -39,7 +37,6 @@ const WeightLose = () => {
       <a href="https://www.effectivegatecpm.com/b4s3z1g3h3?key=624d68387e04f583c66e77df9c6d18a7" target="_blank" rel="nofollow">
         Explore related resources
       </a>
-<VastVideoAd/>
 
       <h2>3. Drink Enough Water</h2>
       <p>Drinking sufficient water is very important for weight loss. Water helps flush out toxins from the body and increases metabolism. Try to drink 8–10 glasses of water daily. Drinking water 30 minutes before meals can reduce hunger and prevent overeating.</p>
@@ -52,14 +49,12 @@ const WeightLose = () => {
       <a href="https://www.effectivegatecpm.com/b4s3z1g3h3?key=624d68387e04f583c66e77df9c6d18a7" target="_blank" rel="nofollow">
         Explore related resources
       </a>
-<VastVideoAd/>
 
       <h2>5. Avoid Sugary Foods and Beverages</h2>
       <p>Sugary foods and drinks are one of the main causes of weight gain. Avoid soft drinks, sweets, candies, and desserts as much as possible. These are high in calories and promote fat storage.</p>
       <a href="https://www.effectivegatecpm.com/b4s3z1g3h3?key=624d68387e04f583c66e77df9c6d18a7" target="_blank" rel="nofollow">
         Explore related resources
       </a>
-<VastVideoAd/>
 
       <div style={{display:"flex", boxShadow:"4px 7px 15px black", border:"1px solid black", margin: "20px 0"}}>
         <img src={diabetes} alt="Healthy lifestyle tips for supporting blood sugar" style={{width:"300px", height:"150px"}}/>
@@ -73,7 +68,6 @@ const WeightLose = () => {
       <a href="https://www.effectivegatecpm.com/b4s3z1g3h3?key=624d68387e04f583c66e77df9c6d18a7" target="_blank" rel="nofollow">
         Explore related resources
       </a>
-<VastVideoAd/>
 
       <h2>7. Eat Smaller Meals More Frequently</h2>
       <a href="https://www.effectivegatecpm.com/b4s3z1g3h3?key=624d68387e04f583c66e77df9c6d18a7" target="_blank" rel="nofollow">
@@ -136,7 +130,7 @@ const WeightLose = () => {
 
       <h2 style={{marginTop: "40px"}}>Conclusion</h2>
       <p>Weight loss is a gradual process that requires time, patience, and consistency. By following a balanced diet, exercising regularly, and maintaining a healthy lifestyle, successful weight loss is achievable. Give yourself time, set realistic goals, and be kind to yourself as you work toward better health.</p>
-<AdBanner/>
+
      
     </div>
   );

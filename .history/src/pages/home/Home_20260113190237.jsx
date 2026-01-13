@@ -19,16 +19,14 @@ const Home = () => {
 Speaking to Fox News, Vance said Denmark and its European partners had significantly under-invested in Greenland’s defence infrastructure and had also ignored President Donald Trump’s arguments regarding the island’s importance.
 
 The White House confirmed on Wednesday that US officials are actively discussing a possible offer to purchase Greenland, a semi-autonomous territory of Denmark. This came just a day after senior figures suggested that military action to annex the island could not be ruled out.
-
-</h2>
-<VastVideoAd/>
-<h2>
+</h2><h2>
 Denmark, a fellow NATO member, has warned that such a move would effectively bring an end to the alliance. Both Denmark and Greenland have repeatedly stated that the island is not for sale.
 
 Although Greenland is the world’s most sparsely populated territory, its position between North America and the Arctic makes it strategically crucial for early missile-warning systems and for monitoring naval activity in the region.
 
 The United States already maintains a permanent military presence at the Pituffik base in north-western Greenland, where more than 100 US personnel are stationed. The base has been operated by the US since World War Two, and existing agreements with Denmark allow Washington to deploy additional troops if it chooses.
        </h2>
+<VastVideoAd/>
 <Trending/>
 <AdBanner/>
     </div>

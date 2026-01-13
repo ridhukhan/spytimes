@@ -9,7 +9,7 @@ import Health from "./pages/heath/Health"
 import Allergy from "./pages/heath/Allergy"
 import WeightLose from "./pages/heath/WeightLose"
 import TopBannerAd from "./components/ads/TopAd"
-import {PopUnderAd }from "./components/ads/PopunderAd"
+import PopUnderAd from "./components/ads/PopunderAd"
 
 
 function App() {
