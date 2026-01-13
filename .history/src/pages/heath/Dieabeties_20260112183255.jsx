@@ -1,8 +1,5 @@
 import React from 'react';
 import diabetese from "../../assets/diabetes01.png";
-import { BottomAd } from '../../components/ads/BottomAd';
-import { MidAd } from '../../components/ads/MidAd';
-import { TopAd } from '../../components/ads/TopAd';
 
 const Dieabeties = () => {
   return (
@@ -11,7 +8,7 @@ const Dieabeties = () => {
         <strong>Disclaimer:</strong> This content is for educational purposes only and is not medical advice. 
         Always consult with a qualified healthcare professional regarding any medical condition or treatment.
       </p>
-<TopAd/>
+
       <h1>Managing Blood Sugar: Lifestyle Tips & Resources</h1>
       
       
@@ -25,7 +22,7 @@ const Dieabeties = () => {
       <a href="https://www.effectivegatecpm.com/b4s3z1g3h3?key=624d68387e04f583c66e77df9c6d18a7" target='_blank' rel='nofollow'>
         <img src={diabetese} alt="Healthy lifestyle tips for supporting blood sugar" style={{maxWidth: "100%"}} />
       </a>
-<MidAd/>
+
       <p>
         Blood glucose levels can be managed to lead a normal life. Certain natural ingredients can help control blood glucose levels. Through a disciplined lifestyle, a person with diabetes can achieve full recovery and longevity.
         Diabetes can be managed without medication, using only exercise and proper diet. Here's a quick guide on what to eat to help control diabetes:
@@ -40,7 +37,7 @@ const Dieabeties = () => {
       <p>
         Fenugreek is one of the best remedies for diabetes. Soak 2 tablespoons of fenugreek seeds in a glass of water overnight. Drink it in the morning along with the seeds. The natural compounds in fenugreek stimulate insulin production. It is also high in fiber, which slows the conversion of starch into glucose, helping people with diabetes.
       </p>
-<MidAd/>
+
       <h2>Bitter Gourd (Karela)</h2>
       <p>
         Bitter gourd helps control diabetes because it can reduce blood glucose levels. It also stimulates insulin secretion. Remove the seeds from 2–3 bitter gourds and extract the juice. Mix it with water and drink it on an empty stomach every morning.
@@ -50,7 +47,7 @@ const Dieabeties = () => {
       <p>
         Cinnamon is very beneficial for people with type 2 diabetes. It stimulates insulin production in the pancreas and lowers blood sugar levels. You can mix cinnamon powder with tea, water, or other beverages.
       </p>
-<MidAd/>
+
       <h2>Aloe Vera</h2>
       <p>
         Aloe vera gel contains a powerful compound called phytosterols, which helps manage diabetes. Research has shown that phytosterols have anti-hyperglycemic effects, making them beneficial for people with type 2 diabetes. Mix aloe vera gel with turmeric, bay leaf, and water, and drink twice a day.
@@ -67,7 +64,7 @@ const Dieabeties = () => {
       </p>
 
       
-<MidAd/>
+
       <h2>Noyontara Plant</h2>
       <p>
         The Noyontara flower is extremely important for diabetes management. Take 1 gram of dried or 2 grams of fresh Noyontara flower and root, soak in a medium cup of water overnight. In the morning, strain the water and boil it, then drink half a cup. Divide this into two doses: morning and evening. After about 10 days, recheck your blood sugar under a doctor's guidance. Frequent urination and other symptoms of diabetes may decrease within a few days.
@@ -77,7 +74,7 @@ const Dieabeties = () => {
       <p>
         Panner flower is highly effective in controlling diabetes. According to natural medicine experts, this wild flower, related to the Solanaceae family, originates in India (also known as Indian Renet). It helps rejuvenate the pancreatic beta cells for better insulin utilization. Consuming a small amount daily helps maintain insulin balance. To use, soak 10–12 flowers in a glass of water overnight and drink the strained water in the morning on an empty stomach. Combined with a balanced diet, this can help regulate insulin levels.
       </p>
-<MidAd/>
+
       <h2>Fatty Fish</h2>
       <p>
         Fatty fish like salmon, sardines, and herring are rich in omega-3 fatty acids, including DHA and EPA, which help with weight management and reduce the risk of heart disease. Regular consumption is beneficial for overall health and helps manage diabetes.
@@ -88,7 +85,7 @@ const Dieabeties = () => {
         According to nutritionists, jujube has a strong effect on people with diabetes. It is rich in fiber, which helps control blood sugar levels. Research published in the <em>International Journal of Research in Pharmacy and Biosciences</em> shows that jujube contains hypoglycemic compounds that help prevent diabetes. Jujube leaves are also beneficial in improving insulin resistance.
       </p>
 
-     <MidAd/>
+     
 
       <h2>Gymnema Sylvestre (Gaynura Procumbens)</h2>
       <p>
@@ -100,7 +97,7 @@ const Dieabeties = () => {
         Exercise is very important for controlling diabetes. Walking is one of the best exercises for diabetes prevention. In this case, exercise acts like medicine. When a diabetic person starts walking or exercising, the body's sensitivity to insulin increases. The body's cells become more responsive to insulin, reducing the need for regular insulin intake. Walking at least 40 minutes daily helps maintain metabolic rate and keeps insulin levels balanced, thereby reducing diabetes risk.
       </p>
 
-      <BottomAd/>
+      
     </div>
   );
 };

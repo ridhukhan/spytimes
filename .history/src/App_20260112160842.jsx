@@ -8,7 +8,7 @@ import Dieabeties from "./pages/heath/Dieabeties"
 import Health from "./pages/heath/Health"
 import Allergy from "./pages/heath/Allergy"
 import WeightLose from "./pages/heath/WeightLose"
-import { PopunderAd } from "./components/ads/PopunderAd"
+import PopupAd from "./ads/PopupAd"
 
 
 
@@ -16,7 +16,6 @@ function App() {
 
   return (
     <div>
-     <PopunderAd/>
    <Navbar/>
    <Routes>
     <Route path="/" element={<Home/>}/>

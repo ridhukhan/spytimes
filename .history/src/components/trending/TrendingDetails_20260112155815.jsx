@@ -1,16 +1,16 @@
 import React from 'react'
 import donaldtrump from "../../assets/donaldtrump.jpeg"
-import { TopAd } from '../ads/TopAd'
-import { MidAd } from '../ads/MidAd'
-import { BottomAd } from '../ads/BottomAd'
+import TopAd from '../../ads/TopAd'
+import MidAd from '../../ads/MidAd'
+import BottomAd from '../../ads/BottomAd'
 
 const TrendingDetails = () => {
   return (
     <div>
-<TopAd/>
+
         <img src={donaldtrump} alt="donaldtrump" />
-    
-      <MidAd/>
+     <TopAd/>
+      
         <p>US President Donald Trump has said that the United States needs to take ownership of Greenland to ensure that Russia and China do not gain control of the territory. According to a report by US media outlet CNN on Friday (January 9), Trump made these remarks stressing the importance of ownership rather than leasing.
 
 Trump stated that a territory cannot be protected simply through leasing; ownership is necessary. He warned that the United States would choose either an easy or a hard path if required.
@@ -32,7 +32,7 @@ Following Trump’s comments, major European countries and Canada have expressed
 
 In a joint statement, Greenland’s political parties said they do not want to remain under either American or Danish control, but wish to exist as Greenlanders. They emphasized that the people of Greenland alone will decide the future of the territory.</p>
    
-  <BottomAd/>
+   <BottomAd/>
     </div>
   )
 }

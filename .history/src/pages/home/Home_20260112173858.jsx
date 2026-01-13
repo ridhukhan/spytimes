@@ -1,16 +1,16 @@
 import React from 'react'
 import home1 from "../../assets/home1.jpeg"
 import Trending from '../../components/trending/Trending'
-import {BottomAd} from '../../components/ads/BottomAd'
-import { TopAd } from '../../components/ads/TopAd'
-import { MidAd } from '../../components/ads/MidAd'
+import TopAd from '../../ads/TopAd'
+import MidAd from '../../ads/MidAd'
+import BottomAd from '../../ads/BottomAd'
 const Home = () => {
   return (
     <div style={{marginTop:"20%"}}>
-<TopAd/>
+
 
         <h1 style={{backgroundColor:"#999"}}>Vance has sharply criticizes Denmark <br /> and Europe over their role and management regarding <br /> Greenland.</h1>
-
+<TopAd/>
         <img src={home1} alt="home1" />
       
        <h2>

@@ -2,14 +2,10 @@ import React from 'react';
 import alergy from "../../assets/Allergy.jpeg";
 import diabetes from "../../assets/diabetes01.png";
 import { Link } from 'react-router-dom';
-import { TopAd } from '../../components/ads/TopAd';
-import { MidAd } from '../../components/ads/MidAd';
-import { BottomAd } from '../../components/ads/BottomAd';
 
 const Allergy = () => {
   return (
     <div style={{marginTop:"20%", padding: "0 20px"}}>
-      <TopAd/>
       <p style={{fontSize:"14px",color:"#555"}}>
         <strong>Disclaimer:</strong> This content is for educational purposes only and is not medical advice. 
         Always consult a qualified healthcare professional regarding any medical condition or treatment.
@@ -30,7 +26,7 @@ const Allergy = () => {
       <p style={{fontSize:"14px",color:"black"}}>
         Illustration: Foods, herbs, and lifestyle tips that may support natural allergy relief.
       </p>
-<MidAd/>
+
       <p>
         Several lifestyle habits can help support the reduction of allergy symptoms naturally. Regularly cleaning your living space, washing bedding in hot water, using HEPA filters in your home, and limiting outdoor activity on high-pollen days are all effective strategies. Additionally, managing stress and getting adequate sleep may support your immune system, helping it respond more effectively to allergens. Avoiding smoking and reducing exposure to strong chemicals or fragrances can also minimize irritation.
         <a href="https://www.effectivegatecpm.com/b4s3z1g3h3?key=624d68387e04f583c66e77df9c6d18a7" target="_blank" rel="nofollow">
@@ -47,14 +43,14 @@ const Allergy = () => {
       <p>
         Many herbs and plants are often used to naturally ease allergy symptoms. Peppermint and eucalyptus leaves can be used in teas or steam inhalation to soothe nasal passages. Stinging nettle, often consumed as tea or capsules,
         <a href="https://www.effectivegatecpm.com/b4s3z1g3h3?key=624d68387e04f583c66e77df9c6d18a7" target="_blank" rel="nofollow">
-        Explore related resources
+          {' '}Explore related resources
         </a> is discussed for its potential anti-inflammatory properties. Quercetin, a flavonoid found in onions, apples, and capers, may help stabilize cells that release histamines. Ginger and turmeric contain natural anti-inflammatory compounds that may support the body's response to allergens. Always consult a healthcare professional before adding new herbs to your routine.
       </p>
 
       <a href="https://www.effectivegatecpm.com/b4s3z1g3h3?key=624d68387e04f583c66e77df9c6d18a7" target="_blank" rel="nofollow">
         Explore related resources
       </a>
-<MidAd/>
+
       <p>
         Creating an allergy-friendly environment at home can also reduce symptoms naturally. Keeping windows closed during high pollen days, using air purifiers, showering after being outdoors, and changing clothes can limit allergen exposure. Wearing a mask outdoors during peak pollen hours and monitoring pollen counts online helps in planning activities. Maintaining a balanced diet, staying hydrated, and regular gentle exercise can support immune resilience. Combining these daily habits with natural dietary and herbal strategies provides a holistic approach to managing allergy symptoms safely.
       </p>
@@ -74,7 +70,7 @@ const Allergy = () => {
         <Link to={"/blood-sugar-natural-tips"}><h2>Managing Blood Sugar: Lifestyle Tips & Resources</h2></Link>
       </div>
    
-     <BottomAd/>
+     
     </div>
   );
 };

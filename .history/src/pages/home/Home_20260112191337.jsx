@@ -1,14 +1,16 @@
 import React from 'react'
 import home1 from "../../assets/home1.jpeg"
 import Trending from '../../components/trending/Trending'
-import {BottomAd} from '../../components/ads/BottomAd'
-import { TopAd } from '../../components/ads/TopAd'
-import { MidAd } from '../../components/ads/MidAd'
 const Home = () => {
   return (
     <div style={{marginTop:"20%"}}>
-<TopAd/>
 
+<AdBanner 
+          adKey="b98d336197bb10ad2755087bdef3a0b5"
+          width={728}
+          height={90}
+          title="Top Leaderboard Ad"
+        />
         <h1 style={{backgroundColor:"#999"}}>Vance has sharply criticizes Denmark <br /> and Europe over their role and management regarding <br /> Greenland.</h1>
 
         <img src={home1} alt="home1" />
@@ -19,7 +21,12 @@ const Home = () => {
 Speaking to Fox News, Vance said Denmark and its European partners had significantly under-invested in Greenland’s defence infrastructure and had also ignored President Donald Trump’s arguments regarding the island’s importance.
 
 The White House confirmed on Wednesday that US officials are actively discussing a possible offer to purchase Greenland, a semi-autonomous territory of Denmark. This came just a day after senior figures suggested that military action to annex the island could not be ruled out.
-</h2><MidAd/><h2>
+</h2><AdBanner 
+            adKey="a6e44a23f0c48ab9d7bcb1f9bb309097"
+            width={300}
+            height={250}
+            title="Middle Rectangle Ad"
+          /><h2>
 Denmark, a fellow NATO member, has warned that such a move would effectively bring an end to the alliance. Both Denmark and Greenland have repeatedly stated that the island is not for sale.
 
 Although Greenland is the world’s most sparsely populated territory, its position between North America and the Arctic makes it strategically crucial for early missile-warning systems and for monitoring naval activity in the region.
@@ -28,7 +35,12 @@ The United States already maintains a permanent military presence at the Pituffi
        </h2>
 <Trending/>
 
-<BottomAd/>
+<AdBanner 
+          adKey="YOUR_THIRD_KEY_HERE"  // ← এখানে replace করো
+          width={320}
+          height={100}
+          title="Bottom Banner Ad"
+        />
     </div>
   )
 }
