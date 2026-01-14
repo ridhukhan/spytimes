@@ -2,7 +2,7 @@ import React from 'react'
 import home1 from "../../assets/home1.jpeg"
 import Trending from '../../components/trending/Trending'
 import AdBanner from '../../components/ads/AdsBanner'
-import FullPageAdBanner from '../../components/ads/FullPageAdBanner'
+import {FullPageAdBanner} from '../../components/ads/FullPageAdBanner'
 
 const Home = () => {
   return (
