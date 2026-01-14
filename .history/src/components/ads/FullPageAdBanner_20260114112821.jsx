@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 
-export const FullPageAdBanner = () => {
+const FullPageAdBanner = () => {
   useEffect(() => {
     const script = document.createElement("script");
     script.src = "https://a.pemsrv.com/ad-provider.js";
@@ -21,3 +21,4 @@ export const FullPageAdBanner = () => {
   return null; // UI লাগবে না
 };
 
+export default FullPageAdBanner;
