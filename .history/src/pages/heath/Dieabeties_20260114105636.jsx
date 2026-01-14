@@ -1,6 +1,6 @@
 import React from 'react';
 import diabetese from "../../assets/diabetes01.png";
-import {FullPageAdBanner} from '../../components/ads/FullPageAdBanner';
+import FullPageAdBanner from '../../components/ads/FullPageAdBanner';
 
 const Dieabeties = () => {
   return (

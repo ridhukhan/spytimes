@@ -2,7 +2,8 @@ import React from 'react';
 import weightlose from "../../assets/weightlose.jpeg";
 import diabetes from "../../assets/diabetes01.png";
 import { Link } from 'react-router-dom';
-import {FullPageAdBanner} from '../../components/ads/FullPageAdBanner';
+import FullPageAdBanner from '../../components/ads/FullPageAdBanner';
+import VastVideoAd from '../../components/ads/VastVideoPage';
 import AdBanner from '../../components/ads/AdsBanner';
 
 
