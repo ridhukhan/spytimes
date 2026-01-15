@@ -30,8 +30,8 @@ const Health = () => {
 <Link to={"/secret-solution"}><h2 >যৌনশক্তি বাড়ানোর প্রাকৃতিক উপায়</h2></Link>
 </div>
 <div style={{display:"flex", boxShadow:"4px 7px 15px black", border:"1px solid black"}}>
-<img src={dick1} alt="সহজে লিঙ্গ মোটা ও লম্বা করার ব্যায়াম"  style={{width:"300px", height:"150px"}}/>
-<Link to={"/panis-growth"}><h2 >সহজে লিঙ্গ মোটা ও লম্বা করার ব্যায়াম</h2></Link>
+<img src={bangla1} alt="যৌনশক্তি বাড়ানোর প্রাকৃতিক উপায়"  style={{width:"300px", height:"150px"}}/>
+<Link to={"/secret-solution"}><h2 >যৌনশক্তি বাড়ানোর প্রাকৃতিক উপায়</h2></Link>
 </div>
     </div>
   )

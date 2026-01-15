@@ -9,7 +9,6 @@ import Health from "./pages/heath/Health"
 import Allergy from "./pages/heath/Allergy"
 import WeightLose from "./pages/heath/WeightLose"
 import Bangla from "./pages/heath/Bangla"
-import Panisgrowth from "./pages/heath/Panisgrowth"
 
 function App() {
 
@@ -28,8 +27,6 @@ function App() {
 <Route path="/allergy" element={<Allergy/>}/>
 <Route path="/weightlose" element={<WeightLose/>}/>
 <Route path="/secret-solution" element={<Bangla/>}/>
-<Route path="/panis-growth" element={<Panisgrowth/>}/>
-
 
 
 
