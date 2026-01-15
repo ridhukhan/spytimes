@@ -16,7 +16,7 @@ Speaking to Fox News, Vance said Denmark and its European partners had significa
 The White House confirmed on Wednesday that US officials are actively discussing a possible offer to purchase Greenland, a semi-autonomous territory of Denmark. This came just a day after senior figures suggested that military action to annex the island could not be ruled out.
 
 </h2>
-<ExoClickBanner/>
+
 <h2>
 Denmark, a fellow NATO member, has warned that such a move would effectively bring an end to the alliance. Both Denmark and Greenland have repeatedly stated that the island is not for sale.
 
