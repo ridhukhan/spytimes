@@ -4,7 +4,6 @@ import diabetes from "../../assets/diabetes01.png";
 import { Link } from 'react-router-dom';
 
 import ExoClickBanner from '../../components/ads/ExoclicBanner'
-import MagSrvInPlaceAd from '../../components/ads/MagSrvInPlaceAd'
 
 const WeightLose = () => {
   return (
@@ -23,13 +22,12 @@ const WeightLose = () => {
       <a href="https://www.effectivegatecpm.com/b4s3z1g3h3?key=624d68387e04f583c66e77df9c6d18a7" target='_blank' rel='nofollow'>
         <img src={weightlose} alt="Healthy lifestyle tips for supporting Weight Lose" style={{maxWidth: "100%"}} />
       </a>
-      <ExoClickBanner/>
       <h2>1. Follow a Balanced Diet</h2>
       <p>The first step to healthy weight loss is following a balanced diet. Include adequate amounts of protein, vegetables, fruits, and whole grains in your daily meals. Protein plays a crucial role in weight loss as it reduces hunger and keeps you feeling full for a longer time. Good sources of protein include chicken, eggs, fish, lentils, and chickpeas.</p>
       <a href="https://www.effectivegatecpm.com/b4s3z1g3h3?key=624d68387e04f583c66e77df9c6d18a7" target="_blank" rel="nofollow">
         Explore related resources
       </a>
-<MagSrvInPlaceAd/>
+
       <h2>2. Exercise Regularly</h2>
       <p>Physical exercise is essential for weight loss. Aim to exercise for at least 30 minutes every day.</p>
       <a href="https://www.effectivegatecpm.com/b4s3z1g3h3?key=624d68387e04f583c66e77df9c6d18a7" target="_blank" rel="nofollow">
@@ -39,7 +37,7 @@ const WeightLose = () => {
       <a href="https://www.effectivegatecpm.com/b4s3z1g3h3?key=624d68387e04f583c66e77df9c6d18a7" target="_blank" rel="nofollow">
         Explore related resources
       </a>
-<ExoClickBanner/>
+
       <h2>3. Drink Enough Water</h2>
       <p>Drinking sufficient water is very important for weight loss. Water helps flush out toxins from the body and increases metabolism. Try to drink 8–10 glasses of water daily. Drinking water 30 minutes before meals can reduce hunger and prevent overeating.</p>
       <a href="https://www.effectivegatecpm.com/b4s3z1g3h3?key=624d68387e04f583c66e77df9c6d18a7" target="_blank" rel="nofollow">
@@ -63,7 +61,7 @@ const WeightLose = () => {
         <Link to={"/blood-sugar-natural-tips"}><h2>Managing Blood Sugar: Lifestyle Tips & Resources</h2></Link>
       </div>
 
-      <MagSrvInPlaceAd/>
+      
 
       <h2>6. Choose Whole Grains</h2>
       <p>Whole grains such as brown rice, oatmeal, and whole wheat bread help with weight loss. They are rich in fiber, which slows digestion and keeps you feeling full for longer.</p>

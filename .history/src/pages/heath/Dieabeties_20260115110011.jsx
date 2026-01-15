@@ -56,7 +56,7 @@ const Dieabeties = () => {
       <p>
         Aloe vera gel contains a powerful compound called phytosterols, which helps manage diabetes. Research has shown that phytosterols have anti-hyperglycemic effects, making them beneficial for people with type 2 diabetes. Mix aloe vera gel with turmeric, bay leaf, and water, and drink twice a day.
       </p>
-<ExoClickBanner/>
+
       <h2>Mango Leaves</h2>
       <p>
         Boil 3–4 mango leaves in water. Drinking this mixture every morning reduces the risk of diabetes. You can also dry mango leaves and grind them into powder. Take half a teaspoon of this powder twice a day.
@@ -67,7 +67,7 @@ const Dieabeties = () => {
         According to the British website <em>Express</em>, eating onions is one of the cheapest and most effective ways to control blood sugar. Onion juice can reduce blood sugar by up to 50%. The compounds in onions, including allicin, along with metformin (a widely used diabetes medication), can help manage diabetes. Researchers say onions are an affordable and easily available way to control diabetes.
       </p>
 
-      <MagSrvInPlaceAd/>
+      
 
       <h2>Noyontara Plant</h2>
       <p>

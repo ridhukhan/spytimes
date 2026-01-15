@@ -25,7 +25,7 @@ const Dieabeties = () => {
       <a href="https://www.effectivegatecpm.com/b4s3z1g3h3?key=624d68387e04f583c66e77df9c6d18a7" target='_blank' rel='nofollow'>
         <img src={diabetese} alt="Healthy lifestyle tips for supporting blood sugar" style={{maxWidth: "100%"}} />
       </a>
-<ExoClickBanner/>
+
       <p>
         Blood glucose levels can be managed to lead a normal life. Certain natural ingredients can help control blood glucose levels. Through a disciplined lifestyle, a person with diabetes can achieve full recovery and longevity.
         Diabetes can be managed without medication, using only exercise and proper diet. Here's a quick guide on what to eat to help control diabetes:
@@ -37,7 +37,6 @@ const Dieabeties = () => {
       <a href="https://www.effectivegatecpm.com/b4s3z1g3h3?key=624d68387e04f583c66e77df9c6d18a7" target='_blank' rel='nofollow'>
         diabetes
       </a>
-      <MagSrvInPlaceAd/>
       <p>
         Fenugreek is one of the best remedies for diabetes. Soak 2 tablespoons of fenugreek seeds in a glass of water overnight. Drink it in the morning along with the seeds. The natural compounds in fenugreek stimulate insulin production. It is also high in fiber, which slows the conversion of starch into glucose, helping people with diabetes.
       </p>
@@ -56,7 +55,7 @@ const Dieabeties = () => {
       <p>
         Aloe vera gel contains a powerful compound called phytosterols, which helps manage diabetes. Research has shown that phytosterols have anti-hyperglycemic effects, making them beneficial for people with type 2 diabetes. Mix aloe vera gel with turmeric, bay leaf, and water, and drink twice a day.
       </p>
-<ExoClickBanner/>
+
       <h2>Mango Leaves</h2>
       <p>
         Boil 3–4 mango leaves in water. Drinking this mixture every morning reduces the risk of diabetes. You can also dry mango leaves and grind them into powder. Take half a teaspoon of this powder twice a day.
@@ -67,7 +66,7 @@ const Dieabeties = () => {
         According to the British website <em>Express</em>, eating onions is one of the cheapest and most effective ways to control blood sugar. Onion juice can reduce blood sugar by up to 50%. The compounds in onions, including allicin, along with metformin (a widely used diabetes medication), can help manage diabetes. Researchers say onions are an affordable and easily available way to control diabetes.
       </p>
 
-      <MagSrvInPlaceAd/>
+      
 
       <h2>Noyontara Plant</h2>
       <p>

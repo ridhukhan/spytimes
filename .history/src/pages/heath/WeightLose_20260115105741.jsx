@@ -39,7 +39,7 @@ const WeightLose = () => {
       <a href="https://www.effectivegatecpm.com/b4s3z1g3h3?key=624d68387e04f583c66e77df9c6d18a7" target="_blank" rel="nofollow">
         Explore related resources
       </a>
-<ExoClickBanner/>
+
       <h2>3. Drink Enough Water</h2>
       <p>Drinking sufficient water is very important for weight loss. Water helps flush out toxins from the body and increases metabolism. Try to drink 8–10 glasses of water daily. Drinking water 30 minutes before meals can reduce hunger and prevent overeating.</p>
       <a href="https://www.effectivegatecpm.com/b4s3z1g3h3?key=624d68387e04f583c66e77df9c6d18a7" target="_blank" rel="nofollow">
@@ -63,7 +63,7 @@ const WeightLose = () => {
         <Link to={"/blood-sugar-natural-tips"}><h2>Managing Blood Sugar: Lifestyle Tips & Resources</h2></Link>
       </div>
 
-      <MagSrvInPlaceAd/>
+      
 
       <h2>6. Choose Whole Grains</h2>
       <p>Whole grains such as brown rice, oatmeal, and whole wheat bread help with weight loss. They are rich in fiber, which slows digestion and keeps you feeling full for longer.</p>

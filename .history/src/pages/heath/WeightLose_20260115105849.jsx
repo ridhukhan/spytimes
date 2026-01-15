@@ -63,7 +63,7 @@ const WeightLose = () => {
         <Link to={"/blood-sugar-natural-tips"}><h2>Managing Blood Sugar: Lifestyle Tips & Resources</h2></Link>
       </div>
 
-      <MagSrvInPlaceAd/>
+      
 
       <h2>6. Choose Whole Grains</h2>
       <p>Whole grains such as brown rice, oatmeal, and whole wheat bread help with weight loss. They are rich in fiber, which slows digestion and keeps you feeling full for longer.</p>
