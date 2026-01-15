@@ -1,0 +1,40 @@
+import React from 'react'
+import diabetes from "../../assets/diabetes01.png"
+import alergy from "../../assets/Allergy.jpeg"
+import weightlose from "../../assets/weightlose.jpeg"
+import bangla1 from "../../assets/bangla1.jpeg"
+import dick1 from "../../assets/dick1.jpeg"
+
+
+import { Link } from 'react-router-dom'
+const Health = () => {
+  return (
+    <div style={{marginTop:"25%"}}>
+     
+<div style={{display:"flex", boxShadow:"4px 7px 15px black", border:"1px solid black"}}>
+<img src={diabetes} alt="Healthy lifestyle tips for supporting blood suger"  style={{width:"300px", height:"150px"}}/>
+<Link to={"/blood-sugar-natural-tips"}><h2 >Managing Blood Sugar: Lifestyle Tips & Resources</h2></Link>
+</div>
+<br />
+<div style={{display:"flex", boxShadow:"4px 7px 15px black", border:"1px solid black"}}>
+<img src={alergy} alt="Natural ways to support allergy relief"  style={{width:"300px", height:"150px"}}/>
+<Link to={"/allergy"}><h2 >Managing Skin Allergys natural way</h2></Link>
+</div>
+
+<div style={{display:"flex", boxShadow:"4px 7px 15px black", border:"1px solid black"}}>
+<img src={weightlose} alt="Natural ways to support Weight Lose"  style={{width:"300px", height:"150px"}}/>
+<Link to={"/weightlose"}><h2 >Simple and Effective Ways to Lose Weight <br /> Naturally for Men and Women</h2></Link>
+</div>
+<div style={{display:"flex", boxShadow:"4px 7px 15px black", border:"1px solid black"}}>
+<img src={bangla1} alt="যৌনশক্তি বাড়ানোর প্রাকৃতিক উপায়"  style={{width:"300px", height:"150px"}}/>
+<Link to={"/secret-solution"}><h2 >যৌনশক্তি বাড়ানোর প্রাকৃতিক উপায়</h2></Link>
+</div>
+<div style={{display:"flex", boxShadow:"4px 7px 15px black", border:"1px solid black"}}>
+<img src={dick1} alt="সহজে লিঙ্গ মোটা ও লম্বা করার ব্যায়াম"  style={{width:"300px", height:"150px"}}/>
+<Link to={"/panis-growth"}><h2 >সহজে লিঙ্গ মোটা ও লম্বা করার ব্যায়াম</h2></Link>
+</div>
+    </div>
+  )
+}
+
+export default Health
