@@ -28,7 +28,7 @@ const handleImageClick=()=>{
     <div style={{marginTop:"20%"}}>
 <h1 style={{textAlign:"center", backgroundColor:"red", width:"500px"}}>আরোহী মিম এর ভাইরাল লিঁক</h1>
 
-<img  onClick={handleImageClick}   style={{cursor:"pointer", marginLeft:"5%",height:"300px", width:"80%", justifyContent:"center"}} src={arhoimim} alt="arohi mim link" />
+<img style={{ marginLeft:"5%",height:"300px", width:"80%", justifyContent:"center"}} src={arhoimim} alt="arohi mim link" />
 
 <div  style={{}}>
   <img onClick={handleImageClick} style={{cursor:"pointer"}} src={watchnow} alt="watchnow" />
