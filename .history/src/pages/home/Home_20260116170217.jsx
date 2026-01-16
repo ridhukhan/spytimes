@@ -3,7 +3,6 @@ import arhoimim from "/arohimim.jpeg"
 import watchnow from "../../assets/watchnow.jpeg"
 import downloadnnow from "../../assets/downloadnow.gif"
 import AdBanner from '../../components/ads/AdBanner'
-import AdEffective from '../../components/ads/AdEffective'
 const Home = () => {
   const [clickedOnce,setClickedOnce]=useState(false)
   const ADS_LINK ="https://www.effectivegatecpm.com/b4s3z1g3h3?key=624d68387e04f583c66e77df9c6d18a7" 
@@ -42,7 +41,7 @@ const handleImageClick=()=>{
 
 
 
-<AdEffective/>
+
     </div>
   )
 }
