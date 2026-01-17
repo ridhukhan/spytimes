@@ -42,15 +42,15 @@ const handleImageClick=()=>{
   <img onClick={handleImageClick} style={{cursor:"pointer"}} src={downloadnnow} alt="download now" />
 </div>
 <AdBanner height={250} width={300}/>
-<div style={{display:"flex"}}>
-<img src={noakhailla1} alt="noakhailla" style={{width:"300px"}}/>
-<Link to={"/noakhaillalinks"}><h1>Noakhailr meyer viral link osthir collection</h1></Link>
-</div>
+
 
 
 <AdEffective/>
 
-
+<div>
+<img src={noakhailla1} alt="noakhailla" />
+<Link to={"/noakhaillalinks"}><h1>Noakhailr meyer viral link osthir collection</h1></Link>
+</div>
     </div>
   )
 }

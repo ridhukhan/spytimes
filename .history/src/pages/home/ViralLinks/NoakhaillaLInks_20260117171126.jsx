@@ -4,14 +4,11 @@ import watchnow from "../../assets/watchnow.jpeg"
 import downloadnnow from "../../assets/downloadnow.gif"
 import AdBanner from '../../components/ads/AdBanner'
 import AdEffective from '../../components/ads/AdEffective'
-import noakhailla1 from "/noakhailla1.jpeg"
-import { Link } from 'react-router-dom'
-
-const Home = () => {
+const NoakhaillaLinks = () => {
   const [clickedOnce,setClickedOnce]=useState(false)
-  const ADS_LINK ="https://www.effectivegatecpm.com/b4s3z1g3h3?key=624d68387e04f583c66e77df9c6d18a7" 
+  const ADS_LINK ="https://www.effectivegatecpm.com/bk0ur8ec?key=6ee3681086040e3be9750a7973493ba4" 
   
-  const DRIVE_LINK="https://drive.google.com/file/d/1g8_IfB920ryziCLUADRYtlMIwsoFzTwe/view?usp=drivesdk"
+  const DRIVE_LINK="https://drive.google.com/drive/folders/1cqKR4dROYWqY8lZUmfIE7PdcVRTe-4id"
 
 const handleImageClick=()=>{
 
@@ -42,17 +39,12 @@ const handleImageClick=()=>{
   <img onClick={handleImageClick} style={{cursor:"pointer"}} src={downloadnnow} alt="download now" />
 </div>
 <AdBanner height={250} width={300}/>
-<div style={{display:"flex"}}>
-<img src={noakhailla1} alt="noakhailla" style={{width:"300px"}}/>
-<Link to={"/noakhaillalinks"}><h1>Noakhailr meyer viral link osthir collection</h1></Link>
-</div>
+
 
 
 <AdEffective/>
-
-
     </div>
   )
 }
 
-export default Home
+export default NoakhaillaLinks

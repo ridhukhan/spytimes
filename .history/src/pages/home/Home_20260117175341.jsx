@@ -5,7 +5,6 @@ import downloadnnow from "../../assets/downloadnow.gif"
 import AdBanner from '../../components/ads/AdBanner'
 import AdEffective from '../../components/ads/AdEffective'
 import noakhailla1 from "/noakhailla1.jpeg"
-import { Link } from 'react-router-dom'
 
 const Home = () => {
   const [clickedOnce,setClickedOnce]=useState(false)
@@ -42,15 +41,15 @@ const handleImageClick=()=>{
   <img onClick={handleImageClick} style={{cursor:"pointer"}} src={downloadnnow} alt="download now" />
 </div>
 <AdBanner height={250} width={300}/>
-<div style={{display:"flex"}}>
-<img src={noakhailla1} alt="noakhailla" style={{width:"300px"}}/>
-<Link to={"/noakhaillalinks"}><h1>Noakhailr meyer viral link osthir collection</h1></Link>
-</div>
+
 
 
 <AdEffective/>
 
-
+<div>
+<img src={noakhailla1} alt="noakhailla" />
+<h1>Noakhailr meyer viral link osthir collection</h1>
+</div>
     </div>
   )
 }
