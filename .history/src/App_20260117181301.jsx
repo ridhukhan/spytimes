@@ -10,7 +10,7 @@ import Allergy from "./pages/heath/Allergy"
 import WeightLose from "./pages/heath/WeightLose"
 import Bangla from "./pages/heath/Bangla"
 import Panisgrowth from "./pages/heath/Panisgrowth"
-import NoakhaillaLinks from "./components/ViralLinks/NoakhaillaLinks"
+import NoakhaillaLinks from "./components/ViralLinks/NoakhaillaLInks"
 
 function App() {
 
