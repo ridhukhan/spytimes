@@ -47,7 +47,6 @@ const handleImageClick=()=>{
 <img src={noakhailla1} alt="noakhailla" style={{width:"300px", height:"100px"}}/>
 <Link to={"/noakhaillalinks"}><h1>Noakhailr meyer viral link osthir collection</h1></Link>
 </div>
-<br />
 <div style={{display:"flex"}}>
 <img src={baby2} alt="callme page" style={{width:"300px", height:"200px"}}/>
 <Link to={"/callmebaby"}><h1>Call and watch me i m horny now</h1></Link>

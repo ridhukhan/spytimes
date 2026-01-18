@@ -43,7 +43,7 @@ const handleImageClick=()=>{
  
 <div  style={{display:"flex", cursor:"pointer", width:"100%"}}>
   <img onClick={handleImageClick} style={{cursor:"pointer", width:"30%", height:"100px"}} src={callme} alt="call me" />
-  <img onClick={handleImageClick} style={{cursor:"pointer", width:"30%", height:"100px"}} src={watchnow} alt="wath meee" />
+  <img onClick={handleImageClick} style={{cursor:"pointer", width:"30%"}} src={watchnow} alt="wath meee" />
 
 </div>
 <AdBanner height={250} width={300}/>
