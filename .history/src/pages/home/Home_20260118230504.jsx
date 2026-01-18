@@ -49,7 +49,7 @@ const handleImageClick=()=>{
 </div>
 <div style={{display:"flex"}}>
 <img src={baby2} alt="callme page" style={{width:"300px"}}/>
-<Link to={"/callmebaby"}><h1>Call and watch me i m horny now</h1></Link>
+<Link to={"/noakhaillalinks"}><h1>Call and watch me i m horny now</h1></Link>
 </div>
 
 
